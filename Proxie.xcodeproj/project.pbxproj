@@ -7,28 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A004E1D715766804005617A2 /* Downloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A004E1D515766804005617A2 /* Downloader.xib */; };
+		A00881B3151A1DD3007E4AAA /* resize.png in Resources */ = {isa = PBXBuildFile; fileRef = A00881B2151A1DD3007E4AAA /* resize.png */; };
+		A03EAFFF1517F3720085B4C7 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = A03EAFFC1517F3720085B4C7 /* box.png */; };
+		A03EB0001517F3720085B4C7 /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = A03EAFFD1517F3720085B4C7 /* button_knob.png */; };
+		A03EB0011517F3720085B4C7 /* button_surround.png in Resources */ = {isa = PBXBuildFile; fileRef = A03EAFFE1517F3720085B4C7 /* button_surround.png */; };
+		A05038DC15169D3B00C838D8 /* MBSliderButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A05038DA15169D3B00C838D8 /* MBSliderButton.h */; };
+		A05038DD15169D3B00C838D8 /* MBSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A05038DB15169D3B00C838D8 /* MBSliderButton.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		A05D3F691563500A00BB7DAC /* fileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A05D3F671563500A00BB7DAC /* fileManager.h */; };
+		A05D3F6A1563500A00BB7DAC /* fileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D3F681563500A00BB7DAC /* fileManager.m */; };
+		A06AC5411518FE1600DE0486 /* CProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = A06AC53F1518FE1600DE0486 /* CProxy.h */; };
+		A06AC5421518FE1600DE0486 /* CProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A06AC5401518FE1600DE0486 /* CProxy.m */; };
 		A072F22A15163AC80034805D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A072F22915163AC80034805D /* Cocoa.framework */; };
 		A072F22C15163AC80034805D /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A072F22B15163AC80034805D /* PreferencePanes.framework */; };
 		A072F23615163AC90034805D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A072F23415163AC90034805D /* InfoPlist.strings */; };
 		A072F23A15163AC90034805D /* Proxie.m in Sources */ = {isa = PBXBuildFile; fileRef = A072F23915163AC90034805D /* Proxie.m */; };
 		A072F23C15163AC90034805D /* Proxie.tiff in Resources */ = {isa = PBXBuildFile; fileRef = A072F23B15163AC90034805D /* Proxie.tiff */; };
 		A072F23F15163AC90034805D /* Proxie.xib in Resources */ = {isa = PBXBuildFile; fileRef = A072F23D15163AC90034805D /* Proxie.xib */; };
+		A07C6D5115655DCF0020A6F9 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = A07C6D5015655DCF0020A6F9 /* github.png */; };
+		A07C6D5415655F490020A6F9 /* aboutSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = A07C6D5215655F490020A6F9 /* aboutSheetController.h */; };
+		A07C6D5515655F490020A6F9 /* aboutSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07C6D5315655F490020A6F9 /* aboutSheetController.m */; };
+		A0930C52151E1946006803EE /* Ascript.h in Headers */ = {isa = PBXBuildFile; fileRef = A0930C50151E1946006803EE /* Ascript.h */; };
+		A0930C53151E1946006803EE /* Ascript.m in Sources */ = {isa = PBXBuildFile; fileRef = A0930C51151E1946006803EE /* Ascript.m */; };
+		A0B567F415712958002CEBA0 /* Proxie.h in Headers */ = {isa = PBXBuildFile; fileRef = A072F23815163AC90034805D /* Proxie.h */; };
+		A0FEC4081571B60A00A0E566 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B5680715713836002CEBA0 /* Constants.h */; };
+		A0FF4C83153DD12000F07133 /* Proxie-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A072F23715163AC90034805D /* Proxie-Prefix.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A004E1D615766804005617A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Proxie/en.lproj/Downloader.xib; sourceTree = "<group>"; };
+		A00881B2151A1DD3007E4AAA /* resize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resize.png; path = Proxie/Resources/resize.png; sourceTree = "<group>"; };
+		A03EAFFC1517F3720085B4C7 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box.png; path = Proxie/Resources/box.png; sourceTree = "<group>"; };
+		A03EAFFD1517F3720085B4C7 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_knob.png; path = Proxie/Resources/button_knob.png; sourceTree = "<group>"; };
+		A03EAFFE1517F3720085B4C7 /* button_surround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_surround.png; path = Proxie/Resources/button_surround.png; sourceTree = "<group>"; };
+		A05038781516628300C838D8 /* networksetup.rtf */ = {isa = PBXFileReference; explicitFileType = text.rtf; fileEncoding = 4; name = networksetup.rtf; path = Proxie/networksetup.rtf; sourceTree = "<group>"; };
+		A05038DA15169D3B00C838D8 /* MBSliderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSliderButton.h; sourceTree = "<group>"; };
+		A05038DB15169D3B00C838D8 /* MBSliderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSliderButton.m; sourceTree = "<group>"; };
+		A05D3F671563500A00BB7DAC /* fileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileManager.h; sourceTree = "<group>"; };
+		A05D3F681563500A00BB7DAC /* fileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fileManager.m; sourceTree = "<group>"; };
+		A06AC53F1518FE1600DE0486 /* CProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CProxy.h; sourceTree = "<group>"; };
+		A06AC5401518FE1600DE0486 /* CProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CProxy.m; sourceTree = "<group>"; };
 		A072F22615163AC80034805D /* Proxie.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proxie.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
 		A072F22915163AC80034805D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A072F22B15163AC80034805D /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
 		A072F22E15163AC80034805D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A072F22F15163AC80034805D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A072F23015163AC80034805D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A072F23315163AC90034805D /* Proxie-Info.plist */ = {isa = PBXFileReference; path = "Proxie-Info.plist"; sourceTree = "<group>"; };
+		A072F23315163AC90034805D /* Proxie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Proxie-Info.plist"; sourceTree = "<group>"; };
 		A072F23515163AC90034805D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A072F23715163AC90034805D /* Proxie-Prefix.pch */ = {isa = PBXFileReference; path = "Proxie-Prefix.pch"; sourceTree = "<group>"; };
-		A072F23815163AC90034805D /* Proxie.h */ = {isa = PBXFileReference; path = Proxie.h; sourceTree = "<group>"; };
+		A072F23715163AC90034805D /* Proxie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Proxie-Prefix.pch"; sourceTree = "<group>"; };
+		A072F23815163AC90034805D /* Proxie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxie.h; sourceTree = "<group>"; };
 		A072F23915163AC90034805D /* Proxie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxie.m; sourceTree = "<group>"; };
-		A072F23B15163AC90034805D /* Proxie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Proxie.tiff; sourceTree = "<group>"; };
+		A072F23B15163AC90034805D /* Proxie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Proxie.tiff; path = Proxie/Proxie.tiff; sourceTree = "<group>"; };
 		A072F23E15163AC90034805D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Proxie.xib; sourceTree = "<group>"; };
+		A072F24A15164A6F0034805D /* todo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = todo; path = Proxie/todo; sourceTree = "<group>"; };
+		A07C6D5015655DCF0020A6F9 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = github.png; path = Proxie/Resources/github.png; sourceTree = "<group>"; };
+		A07C6D5215655F490020A6F9 /* aboutSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aboutSheetController.h; sourceTree = "<group>"; };
+		A07C6D5315655F490020A6F9 /* aboutSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aboutSheetController.m; sourceTree = "<group>"; };
+		A0930C50151E1946006803EE /* Ascript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ascript.h; sourceTree = "<group>"; };
+		A0930C51151E1946006803EE /* Ascript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ascript.m; sourceTree = "<group>"; };
+		A0B5680715713836002CEBA0 /* Constants.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +124,12 @@
 			children = (
 				A072F23815163AC90034805D /* Proxie.h */,
 				A072F23915163AC90034805D /* Proxie.m */,
-				A072F23B15163AC90034805D /* Proxie.tiff */,
+				A07C6D5215655F490020A6F9 /* aboutSheetController.h */,
+				A07C6D5315655F490020A6F9 /* aboutSheetController.m */,
 				A072F23D15163AC90034805D /* Proxie.xib */,
+				A004E1D515766804005617A2 /* Downloader.xib */,
+				A0A70EEB155E9414001802D2 /* Obj */,
+				A0A2D17A15177B96009A2935 /* Resource */,
 				A072F23215163AC90034805D /* Supporting Files */,
 			);
 			path = Proxie;
@@ -96,11 +138,51 @@
 		A072F23215163AC90034805D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A0B5680715713836002CEBA0 /* Constants.h */,
+				A072F23715163AC90034805D /* Proxie-Prefix.pch */,
 				A072F23315163AC90034805D /* Proxie-Info.plist */,
 				A072F23415163AC90034805D /* InfoPlist.strings */,
-				A072F23715163AC90034805D /* Proxie-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0A07BBC151779FB00394AB3 /* MBSliderButton */ = {
+			isa = PBXGroup;
+			children = (
+				A05038DA15169D3B00C838D8 /* MBSliderButton.h */,
+				A05038DB15169D3B00C838D8 /* MBSliderButton.m */,
+			);
+			name = MBSliderButton;
+			sourceTree = "<group>";
+		};
+		A0A2D17A15177B96009A2935 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A072F24A15164A6F0034805D /* todo */,
+				A05038781516628300C838D8 /* networksetup.rtf */,
+				A072F23B15163AC90034805D /* Proxie.tiff */,
+				A00881B2151A1DD3007E4AAA /* resize.png */,
+				A03EAFFC1517F3720085B4C7 /* box.png */,
+				A07C6D5015655DCF0020A6F9 /* github.png */,
+				A03EAFFD1517F3720085B4C7 /* button_knob.png */,
+				A03EAFFE1517F3720085B4C7 /* button_surround.png */,
+			);
+			name = Resource;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A0A70EEB155E9414001802D2 /* Obj */ = {
+			isa = PBXGroup;
+			children = (
+				A0930C50151E1946006803EE /* Ascript.h */,
+				A0930C51151E1946006803EE /* Ascript.m */,
+				A06AC53F1518FE1600DE0486 /* CProxy.h */,
+				A06AC5401518FE1600DE0486 /* CProxy.m */,
+				A05D3F671563500A00BB7DAC /* fileManager.h */,
+				A05D3F681563500A00BB7DAC /* fileManager.m */,
+				A0A07BBC151779FB00394AB3 /* MBSliderButton */,
+			);
+			name = Obj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +192,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05038DC15169D3B00C838D8 /* MBSliderButton.h in Headers */,
+				A06AC5411518FE1600DE0486 /* CProxy.h in Headers */,
+				A0930C52151E1946006803EE /* Ascript.h in Headers */,
+				A0FF4C83153DD12000F07133 /* Proxie-Prefix.pch in Headers */,
+				A05D3F691563500A00BB7DAC /* fileManager.h in Headers */,
+				A07C6D5415655F490020A6F9 /* aboutSheetController.h in Headers */,
+				A0B567F415712958002CEBA0 /* Proxie.h in Headers */,
+				A0FEC4081571B60A00A0E566 /* Constants.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,9 +211,9 @@
 			buildConfigurationList = A072F24215163AC90034805D /* Build configuration list for PBXNativeTarget "Proxie" */;
 			buildPhases = (
 				A072F22015163AC80034805D /* Sources */,
+				A072F22315163AC80034805D /* Resources */,
 				A072F22115163AC80034805D /* Frameworks */,
 				A072F22215163AC80034805D /* Headers */,
-				A072F22315163AC80034805D /* Resources */,
 				A072F22415163AC80034805D /* Rez */,
 			);
 			buildRules = (
@@ -168,6 +258,12 @@
 				A072F23615163AC90034805D /* InfoPlist.strings in Resources */,
 				A072F23C15163AC90034805D /* Proxie.tiff in Resources */,
 				A072F23F15163AC90034805D /* Proxie.xib in Resources */,
+				A03EAFFF1517F3720085B4C7 /* box.png in Resources */,
+				A03EB0001517F3720085B4C7 /* button_knob.png in Resources */,
+				A03EB0011517F3720085B4C7 /* button_surround.png in Resources */,
+				A00881B3151A1DD3007E4AAA /* resize.png in Resources */,
+				A07C6D5115655DCF0020A6F9 /* github.png in Resources */,
+				A004E1D715766804005617A2 /* Downloader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,12 +285,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A072F23A15163AC90034805D /* Proxie.m in Sources */,
+				A05038DD15169D3B00C838D8 /* MBSliderButton.m in Sources */,
+				A06AC5421518FE1600DE0486 /* CProxy.m in Sources */,
+				A0930C53151E1946006803EE /* Ascript.m in Sources */,
+				A05D3F6A1563500A00BB7DAC /* fileManager.m in Sources */,
+				A07C6D5515655F490020A6F9 /* aboutSheetController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A004E1D515766804005617A2 /* Downloader.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A004E1D615766804005617A2 /* en */,
+			);
+			name = Downloader.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		A072F23415163AC90034805D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -218,7 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -230,12 +340,11 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -245,18 +354,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_ENABLE_OBJC_GC = supported;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -268,6 +376,7 @@
 				GCC_PREFIX_HEADER = "Proxie/Proxie-Prefix.pch";
 				INFOPLIST_FILE = "Proxie/Proxie-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = prefPane;
 			};
@@ -280,6 +389,7 @@
 				GCC_PREFIX_HEADER = "Proxie/Proxie-Prefix.pch";
 				INFOPLIST_FILE = "Proxie/Proxie-Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = prefPane;
 			};
@@ -304,6 +414,7 @@
 				A072F24415163AC90034805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

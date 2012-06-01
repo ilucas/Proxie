@@ -1,0 +1,22 @@
+Interface
+    Download proxy from pre-set sites (anonym) (2.0)
+    Vertical Split View (1.1) (maybe not)
+    New Icon
+    add some security to password
+    Change action on Check Secure Auto shit Click
+    
+Project
+   Convert to ARC (Not avaible in Lion)
+    
+CoreData <- not using da shit (POG FTW)
+    adress      string
+    auth		string
+    login		string
+    password    string 
+    port		string
+    type		string
+    
+    
+BUGS
+    AddSheet - go back to normal after resize
+    Edit PopOver - interface Bug
