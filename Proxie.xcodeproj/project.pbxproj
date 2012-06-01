@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A004E1D715766804005617A2 /* Downloader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A004E1D515766804005617A2 /* Downloader.xib */; };
 		A00881B3151A1DD3007E4AAA /* resize.png in Resources */ = {isa = PBXBuildFile; fileRef = A00881B2151A1DD3007E4AAA /* resize.png */; };
 		A03EAFFF1517F3720085B4C7 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = A03EAFFC1517F3720085B4C7 /* box.png */; };
 		A03EB0001517F3720085B4C7 /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = A03EAFFD1517F3720085B4C7 /* button_knob.png */; };
@@ -35,7 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A004E1D615766804005617A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = Proxie/en.lproj/Downloader.xib; sourceTree = "<group>"; };
 		A00881B2151A1DD3007E4AAA /* resize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = resize.png; path = Proxie/Resources/resize.png; sourceTree = "<group>"; };
 		A03EAFFC1517F3720085B4C7 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = box.png; path = Proxie/Resources/box.png; sourceTree = "<group>"; };
 		A03EAFFD1517F3720085B4C7 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_knob.png; path = Proxie/Resources/button_knob.png; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				A07C6D5215655F490020A6F9 /* aboutSheetController.h */,
 				A07C6D5315655F490020A6F9 /* aboutSheetController.m */,
 				A072F23D15163AC90034805D /* Proxie.xib */,
-				A004E1D515766804005617A2 /* Downloader.xib */,
 				A0A70EEB155E9414001802D2 /* Obj */,
 				A0A2D17A15177B96009A2935 /* Resource */,
 				A072F23215163AC90034805D /* Supporting Files */,
@@ -263,7 +260,6 @@
 				A03EB0011517F3720085B4C7 /* button_surround.png in Resources */,
 				A00881B3151A1DD3007E4AAA /* resize.png in Resources */,
 				A07C6D5115655DCF0020A6F9 /* github.png in Resources */,
-				A004E1D715766804005617A2 /* Downloader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,15 +292,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A004E1D515766804005617A2 /* Downloader.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A004E1D615766804005617A2 /* en */,
-			);
-			name = Downloader.xib;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		A072F23415163AC90034805D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
