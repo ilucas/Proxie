@@ -40,6 +40,7 @@
     [interfacebutton removeAllItems];
     [interfacebutton addItemsWithTitles:[Ascript getInterfaceList]];
     [interfacebutton removeItemAtIndex:0];//Remove "An asterisk (*) denotes that a network service is disabled." 
+    [interfacebutton selectItemAtIndex:[[NSUserDefaults standardUserDefaults] integerForKey:@"selectedIndex"]];
 }
 
 - (void)mainViewDidLoad{ 
@@ -142,20 +143,21 @@
     
     [proxy release];
     [self refresh:self];
+    [[NSUserDefaults standardUserDefaults] setInteger:[interfacebutton indexOfSelectedItem] forKey:@"selectedIndex"];
 }
 
 - (IBAction)switcher:(id)sender { 
     NSString *SelectedInterface = [interfacebutton titleOfSelectedItem];
     if (![[actualProxy address] isEqualToString:@""]){//assuming is blank = switch is off
         if ([switcher state]) {
-            NSLog(@"on");
+            //NSLog(@"on");
             [actualProxy setEnabool:NO];
             [Ascript setWebProxyState:CPOnState ForInterface:SelectedInterface];
             if ([[actualProxy type] isEqualToString:httpsKey])//HTTPS
                 [Ascript setSecureWebProxyState:CPOnState ForInterface:SelectedInterface];
             [lblapstatus setStringValue:@"Enabled"];
         }else {
-            NSLog(@"off");
+            //NSLog(@"off");
             [Ascript setWebProxyState:CPOffState ForInterface:SelectedInterface];
             if ([[actualProxy type] isEqualToString:httpsKey])//HTTPS
                 [Ascript setSecureWebProxyState:CPOffState ForInterface:SelectedInterface];
@@ -329,7 +331,7 @@
     }
 }
 
--(IBAction)poptrocol:(id)sender {
+-(IBAction)poptrocol:(id)sender {    
     switch ([poptrocol indexOfSelectedItem]) {
         case 0://HTTP
             [lbladdress setStringValue:@"HTTP Proxy Address"];
