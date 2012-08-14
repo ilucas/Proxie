@@ -28,7 +28,7 @@
 @property (copy) NSString *login;
 @property (copy) NSString *pass;
 @property (copy) NSString *auth;
-@property (nonatomic) BOOL Enabool;
+@property (nonatomic, assign) BOOL Enabool;
 
 - (id)initWithDictionary:(NSDictionary *)dict;
 - (NSDictionary *)Dictionary;
