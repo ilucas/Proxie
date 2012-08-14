@@ -58,7 +58,6 @@
     IBOutlet NSTextField *txtport;
     IBOutlet NSTextField *txtusername;
     IBOutlet NSSecureTextField *txtpass;
-    CProxy *actualProxy;
     bool expanded;
 }
 

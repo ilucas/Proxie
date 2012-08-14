@@ -11,7 +11,9 @@
 #import "Ascript.h"
 #import "fileManager.h"
 
-@interface ProxieOwner ()
+@interface ProxieOwner (){
+    CProxy *actualProxy;
+}
 - (IBAction)doubleClick:(id)sender;//TableView Double click Action
 - (void)tableViewSelectionDidChange:(NSNotification *)notification;
 - (void)alertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo;
@@ -126,7 +128,7 @@
 
 -(void)bttapply:(id)sender{
     NSString *SelectedInterface = [interfacebutton titleOfSelectedItem];
-    CProxy *proxy = [[CProxy alloc] initWithDictionary:[array objectAtIndex:[tableView selectedRow]]];
+    CProxy *proxy = [[CProxy alloc] initWithAttributes:[array objectAtIndex:[tableView selectedRow]]];
     
     [Ascript setWebProxy:proxy ForInterface:SelectedInterface];
     [Ascript setWebProxyState:CPOnState ForInterface:SelectedInterface];
@@ -289,7 +291,7 @@
         }else
             [proxy setAuth:CPOffState];
         
-        [arrayController addObject:[proxy Dictionary]];
+        [arrayController addObject:[proxy Attributes]];
         [proxy release];
         [self closesheet];
     }
@@ -392,7 +394,7 @@
 
 -(IBAction)popapply:(id)sender{
     NSInteger row = [tableView selectedRow];
-    CProxy *proxy = [[CProxy alloc] initWithDictionary:[array objectAtIndex:row]];
+    CProxy *proxy = [[CProxy alloc] initWithAttributes:[array objectAtIndex:row]];
     
     [proxy setAddress:[popaddress stringValue]];
     [proxy setPort:[popport stringValue]];
@@ -404,7 +406,7 @@
     else 
         [proxy setAuth:CPOffState];
     
-    [array replaceObjectAtIndex:row withObject:[proxy Dictionary]];
+    [array replaceObjectAtIndex:row withObject:[proxy Attributes]];
     [proxy release];
     [popOver close];
 }
@@ -415,7 +417,7 @@
 -(IBAction)doubleClick:(id)sender{//PopOver
     NSInteger row = [tableView selectedRow];
     if (row != -1) {
-        CProxy *proxy = [[CProxy alloc] initWithDictionary:[array objectAtIndex:row]];
+        CProxy *proxy = [[CProxy alloc] initWithAttributes:[array objectAtIndex:row]];
         if ([proxy getAuthAsBool]) {
             [popassrequire setState:NSOnState];
             [poplogin setStringValue:proxy.login];

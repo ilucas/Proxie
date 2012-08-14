@@ -30,8 +30,8 @@
 @property (copy) NSString *auth;
 @property (nonatomic, assign) BOOL Enabool;
 
-- (id)initWithDictionary:(NSDictionary *)dict;
-- (NSDictionary *)Dictionary;
+- (id)initWithAttributes:(NSDictionary *)dict;
+- (NSDictionary *)Attributes;
 - (BOOL)getAuthAsBool;
 
 @end

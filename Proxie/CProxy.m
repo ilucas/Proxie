@@ -34,7 +34,7 @@
     return self;
 }
 
-- (id)initWithDictionary:(NSDictionary *)dict
+- (id)initWithAttributes:(NSDictionary *)dict
 {
     self = [self init];
     if (self) {
@@ -66,11 +66,10 @@
 }
 
 - (void)setEnabool:(BOOL)value{
-    enabled = value ? CPOnState : CPOffState;
+    enabled = (value ? CPOnState : CPOffState);
 }
 
-
-- (NSDictionary *)Dictionary{
+- (NSDictionary *)Attributes{
     NSDictionary *dict;
     if ([self getAuthAsBool]) {
         dict = [NSDictionary dictionaryWithObjectsAndKeys:
